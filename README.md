@@ -35,8 +35,8 @@ Follow these steps to set up the project on your local machine:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/casper-product-page.git
-   cd casper-product-page
+   git clone https://github.com/bprvuyyuru/casper_clone.git
+   cd casper_clone
    ```
 
 2. Install the dependencies:
@@ -53,7 +53,7 @@ Follow these steps to set up the project on your local machine:
 
 4. Open the browser and navigate to:
    ```
-   http://localhost:3000
+   http://localhost:5173/
    ```
 
 ## Project Structure
