@@ -19,9 +19,9 @@ const ProductDetailPage = () => {
   const productId = "8488314044731";
   return (
     <>
-      <div className="p-6 sm:p-10 bg-white min-h-screen flex flex-col sm:flex-row justify-center">
+      <div className="p-5 sm:p-10 bg-white min-h-screen flex flex-col sm:flex-row justify-center">
         <div className="flex gap-8 flex-col sm:flex-row">
-          <div className="w-full sm:w-[50vw] mb-8 flex justify-center">
+          <div className="w-full sm:w-[50vw] hidden sm:block mb-8 flex justify-center">
             <ProductImageGallery
               mainImage={productData.mainImage}
               details={productData.details}
@@ -32,6 +32,7 @@ const ProductDetailPage = () => {
           </div>
           <div className="flex flex-col w-full sm:w-[30vw]">
             <ProductPurchaseCard
+              productData={productData}
               rating={productData.rating}
               heading={productData.product.heading}
               sizeDetails={productData.product.sizeDetails}

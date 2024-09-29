@@ -1,5 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import React from "react";
+import { Pagination } from "swiper";
 
 const ProductImageGallery = ({
   mainImage,
@@ -45,28 +46,33 @@ const ProductImageGallery = ({
           spaceBetween={20}
           slidesPerView={1}
           pagination={{ clickable: true }}
+          modules={[Pagination]}
         >
           {/* Include the mainImage in the Swiper carousel */}
           <SwiperSlide>
-            <img
-              src={mainImage}
-              alt="Main Image"
-              className="w-full rounded-lg shadow-md"
-            />
+            <div className="flex flex-col items-center text-center">
+              <img
+                src={mainImage}
+                alt="Main Image"
+                className="w-full h-64 object-cover object-center"
+              />
+            </div>
           </SwiperSlide>
           {subImages.map((image, index) => (
             <SwiperSlide key={index}>
-              <img
-                src={image.src}
-                alt={image.alt}
-                className="w-full rounded-lg shadow-md"
-              />
+              <div className="flex flex-col items-center text-center">
+                <img
+                  src={image.src}
+                  alt={image.alt}
+                  className="w-full h-64 object-cover object-center"
+                />
+              </div>
             </SwiperSlide>
           ))}
           {productVideo && (
             <SwiperSlide>
-              <div className="col-span-2 relative">
-                <p className="absolute top-4 p-4 text-[#1E306E] text-lg w-[50vw] font-semibold">
+              <div className="flex flex-col items-center w-full h-64 object-cover object-center">
+                <p className="absolute top-4 p-4 text-[#1E306E] text-lg w-[60vw] font-semibold">
                   {videoTxt}
                 </p>
                 <video autoPlay loop>

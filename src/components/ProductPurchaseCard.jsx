@@ -2,8 +2,9 @@ import { IoMdStar } from "react-icons/io";
 import { FaDollarSign } from "react-icons/fa";
 import { useState } from "react";
 import affirmLogo from "../assets/affirm.png";
+import ProductImageGallery from "./ProductImageGallery";
 
-const ProductPurchaseCard = ({ rating, heading, sizeDetails }) => {
+const ProductPurchaseCard = ({ rating, heading, sizeDetails, productData }) => {
   const [selectedSize, setSelectedSize] = useState(sizeDetails[0]);
 
   const handleSizeChange = (e) => {
@@ -53,6 +54,15 @@ const ProductPurchaseCard = ({ rating, heading, sizeDetails }) => {
         <a href="#" className="underline ml-1">
           Learn more
         </a>
+      </div>
+      <div className="sm:hidden w-full sm:w-[50vw] mb-8 flex justify-center">
+        <ProductImageGallery
+          mainImage={productData.mainImage}
+          details={productData.details}
+          subImages={productData.subImages}
+          productVideo={productData.productVideo}
+          videoTxt={productData.videoTxt}
+        />
       </div>
 
       {/* Size Selector */}

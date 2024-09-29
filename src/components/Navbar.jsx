@@ -62,11 +62,10 @@ const Navbar = () => {
         <div className="absolute top-0 left-0 w-full h-screen bg-white flex flex-col items-start p-8 space-y-6 text-xl z-40">
           <div className="flex justify-between w-full items-center">
             <div className="flex items-center space-x-2">
-              <span className="text-2xl font-bold text-blue-900">Casper</span>
               <img
-                src="/assets/canada-flag.png"
+                src="https://casper.ca/_next/image?url=%2Fassets%2Fcasper_logo.png&w=240&q=75"
                 alt="Canada flag"
-                className="w-4 h-4"
+                className="w-25 h-10"
               />
             </div>
             <FaTimes
@@ -110,11 +109,6 @@ const Navbar = () => {
             </a>
             <div className="mt-4">
               <button className="border rounded-lg px-4 py-2 text-[#1E306E] border-blue-900 flex items-center">
-                <img
-                  src="/assets/canada-flag.png"
-                  alt="Canada flag"
-                  className="w-5 h-5 mr-2"
-                />
                 Canada (English)
               </button>
             </div>
