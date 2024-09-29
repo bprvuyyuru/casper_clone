@@ -60,13 +60,13 @@ Follow these steps to set up the project on your local machine:
 
 The project follows a component-based architecture, ensuring a modular and maintainable codebase.
 
-public: Contains static assets such as images and logos.
-src/assets: Includes various media files like logos and icons.
-src/components: React components for different sections of the page.
-src/data: JSON files that hold the data for the application (e.g., FAQs, Product Details, Add-ons).
-src/services: API services for fetching data (like customer reviews).
-App.jsx: The main entry point of the application.
-index.js: The root JavaScript file to render the app.
+- **public**: Contains static assets such as images and logos.
+- **src/assets**: Includes various media files like logos and icons.
+- **src/components**: React components for different sections of the page.
+- **src/data**: JSON files that hold the data for the application (e.g., FAQs, Product Details, Add-ons).
+- **src/services**: API services for fetching data (like customer reviews).
+- **App.jsx**: The main entry point of the application.
+- **index.js**: The root JavaScript file to render the app.
 
 ## Design Decisions
 
@@ -92,11 +92,11 @@ index.js: The root JavaScript file to render the app.
 
 ### Data Folder
 
-The `data` folder contains various JSON files that store the static content for the project, such as:
+The `data` folder contains various JSON files that store the static content for the project, For example:
 
 - **Footer**: Links, titles, and other footer-related data.
 - **FAQ**: List of frequently asked questions with answers.
-- **Product Add-ons**: List of add-on products, including names, prices, and ratings.
+- **Add-ons**: List of add-on products, including names, prices, and ratings.
 - **Product Details**: All product-specific data like descriptions, images, pricing, and video links.
 
 Using JSON data for this static content provides easy-to-maintain structures that can be updated or modified without changing the core codebase.
