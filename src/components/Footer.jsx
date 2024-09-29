@@ -1,5 +1,5 @@
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
-import footerData from "../data/footer.json"; // Import the JSON data
+import footerData from "../data/Footer.json"; // Import the JSON data
 
 const Footer = () => {
   const { sections, newsletter, contact, copyright } = footerData;
