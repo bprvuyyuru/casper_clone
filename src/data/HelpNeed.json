@@ -1,0 +1,26 @@
+{
+  "title": "Need help deciding?",
+  "items": [
+    {
+      "icon": "https://casper-ca.b-cdn.net/cx_82c8eacfee.svg",
+      "heading": "Chat with us",
+      "description": "Our award-winning customer service can answer any of your sleep questions.",
+      "linkText": "Ask away.",
+      "linkUrl": "#"
+    },
+    {
+      "icon": "https://casper-ca.b-cdn.net/hp_store_01_1_44bfd1e9c6.svg",
+      "heading": "Take a test nap",
+      "description": "Try out one of our mattresses in person at one of our stores.",
+      "linkText": "Find a location near you.",
+      "linkUrl": "#"
+    },
+    {
+      "icon": "https://casper-ca.b-cdn.net/Group_4_e98df85b99.svg",
+      "heading": "Give us a ring",
+      "description": "Our Sleep Specialists are here to help you find the mattresses of your dreams.",
+      "linkText": "+1 888 828 5448",
+      "linkUrl": "tel:+18888285448"
+    }
+  ]
+}

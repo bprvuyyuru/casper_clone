@@ -1,0 +1,73 @@
+{
+  "sections": [
+    {
+      "title": "Products",
+      "links": [
+        { "label": "Mattresses", "url": "#" },
+        { "label": "Pillows", "url": "#" },
+        { "label": "Bed Frames", "url": "#" },
+        { "label": "Sheets", "url": "#" },
+        { "label": "Duvets", "url": "#" },
+        { "label": "Glow Light", "url": "#" },
+        { "label": "Dog Bed", "url": "#" }
+      ]
+    },
+    {
+      "title": "Shop by Size",
+      "links": [
+        { "label": "Twin", "url": "#" },
+        { "label": "Twin XL", "url": "#" },
+        { "label": "Full", "url": "#" },
+        { "label": "Queen", "url": "#" },
+        { "label": "King", "url": "#" },
+        { "label": "Size Guide", "url": "#" }
+      ]
+    },
+    {
+      "title": "Support",
+      "links": [
+        { "label": "Contact Us", "url": "#" },
+        { "label": "FAQ", "url": "#" },
+        { "label": "Returns", "url": "#" },
+        { "label": "Trial", "url": "#" },
+        { "label": "Warranty", "url": "#" },
+        { "label": "Financing", "url": "#" }
+      ]
+    },
+    {
+      "title": "About",
+      "links": [
+        { "label": "Our Story", "url": "#" },
+        { "label": "Casper Labs", "url": "#" },
+        { "label": "Stores", "url": "#" },
+        { "label": "Press", "url": "#" }
+      ]
+    },
+    {
+      "title": "Resources",
+      "links": [
+        { "label": "Mattress Quiz", "url": "#" },
+        { "label": "Mattress Buying Guide", "url": "#" },
+        { "label": "Reviews", "url": "#" },
+        { "label": "Blog", "url": "#" }
+      ]
+    }
+  ],
+  "newsletter": {
+    "title": "Sign up for the latest snooze",
+    "submitText": "Submit"
+  },
+  "contact": {
+    "phone": "1 (888) 828-5448",
+    "facebookUrl": "#",
+    "instagramUrl": "#"
+  },
+  "copyright": {
+    "year": "2024",
+    "links": [
+      { "label": "Privacy", "url": "#" },
+      { "label": "Terms", "url": "#" },
+      { "label": "Accessibility", "url": "#" }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Original Pillow",
+    "image": "https://casper-ca.b-cdn.net/Original_Casper_Pillow_OH_0007_999c916019.jpg?width=640&quality=75",
+    "price": 89,
+    "rating": 4.2,
+    "sizes": "Standard or King"
+  },
+  {
+    "id": 2,
+    "name": "The Humidity Fighting Duvet",
+    "image": "https://casper-ca.b-cdn.net/2_Humidity_Fighting_Duvet_Regular_3_Quart_v2_0156_834a6250_81e9_4a6f_82ed_5e35edfe6b26_3e02da8f59.jpg?width=640&quality=75",
+    "price": 400,
+    "rating": 4.1,
+    "sizes": "Available in 3 sizes"
+  },
+  {
+    "id": 3,
+    "name": "Hybrid Pillow",
+    "image": "https://casper-ca.b-cdn.net/Web_Ready_c80c130d_dccb_4d89_963d_28b50f42b983_f2465668f8.jpg?width=640&quality=75",
+    "price": 129,
+    "rating": 4.5,
+    "sizes": "Standard or King"
+  },
+  {
+    "id": 4,
+    "name": "Waterproof Mattress Protector",
+    "image": "https://casper-ca.b-cdn.net/Waterproof_Mattress_Protector_Front_0006_dfb67d5c_82e7_4a37_a7d4_23be9d1569e0_fc452c87f7.jpg?width=640&quality=75",
+    "price": 109,
+    "rating": 4,
+    "sizes": "Available in 5 sizes"
+  }
+]

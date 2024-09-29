@@ -1,0 +1,60 @@
+{
+  "mainImage": "https://casper-ca.b-cdn.net/the_casper_bedroom_xl_Casper_Blue_Update_915ea8c5_207f_43bc_87c3_5596be150c2f_72527410f3.jpg?width=2048&quality=75",
+  "details": {
+    "heading": "Inspired by the mattress that started it all",
+    "desHeading": "https://casper-ca.b-cdn.net/Casper_Signature_Foam_Icon_e217edf161.svg?width=3840&quality=75",
+    "desHeading2": "https://casper-ca.b-cdn.net/airscape_6096e25d7b.svg?width=1200&quality=75",
+    "description": "Our uniquely responsive layer of foam is designed to soothe you to sleep with the perfect bit of bounce.",
+    "description2": "Thousands of perforations in a breathable foam help keep you comfortably cool all night."
+  },
+  "subImages": [
+    {
+      "src": "https://casper-ca.b-cdn.net/the_casper_mattress_1_07e4f98f7d.jpeg?width=1200&quality=75",
+      "alt": "Product Detail 1"
+    },
+    {
+      "src": "https://casper-ca.b-cdn.net/the_casper_mattress_2_712666e78f.jpeg?width=1200&quality=75",
+      "alt": "Product Detail 2"
+    },
+    {
+      "src": "https://casper-ca.b-cdn.net/the_casper_mattrress_3_b3a85086e9.jpeg?width=1200&quality=75",
+      "alt": "Product Detail 3"
+    },
+    {
+      "src": "https://casper-ca.b-cdn.net/the_casper_mattress_4_9594366e5f.jpeg?width=1200&quality=75",
+      "alt": "Product Detail 4"
+    }
+  ],
+  "productVideo": "https://casper-ca.b-cdn.net/the_casper_mattress_video_e910bcd390.mp4",
+  "videoTxt": "Our uniquely responsive layer of foam is designed to soothe you to sleep with the perfect bit of bounce.",
+  "rating": 4.8,
+  "product": {
+    "heading": "The Casper Mattress",
+    "sizeDetails": [
+      { "id": "Queen", "inStock": true, "price": 1199, "discount": 20 },
+      { "id": "Full", "inStock": true, "price": 1099, "discount": 15 },
+      { "id": "Twin", "inStock": false, "price": 999, "discount": 10 },
+      { "id": "Twin XL", "inStock": true, "price": 1049, "discount": 12 },
+      {
+        "id": "California King",
+        "inStock": true,
+        "price": 1299,
+        "discount": 25
+      },
+      { "id": "King", "inStock": true, "price": 1399, "discount": 18 }
+    ]
+  },
+  "description": {
+    "productDescription": "The first premium foam mattress-in-a-box, The Casper works its magic and delivers unbeatable comfort night after night.",
+    "points": [
+      "<strong>Casper Signature Foam</strong> with <strong>AirScape® Technology</strong> increases airflow and soothes you to sleep.",
+      "<strong>AirScape® Technology</strong> channels away heat and humidity.",
+      "<strong>Premium memory foam</strong> conforms to your body to absorb pressure.",
+      "<strong>ProSupport Foam</strong> prevents sinking and sagging."
+    ]
+  },
+  "HeroSection": {
+    "backgroundImg": "https://casper.ca/_next/image?url=https%3A%2F%2Fcasper-ca.b-cdn.net%2FThe_Casper_Module_Background_Refresh_Desktop_efa39cc3d0.jpg&w=1200&q=100",
+    "text": "The mattress loved by millions is back."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "getCozy": {
+    "title": "Comfort from the moment you crawl into bed.",
+    "subtitle": "Cozy Knit Cover",
+    "description": "A soft knit cover designed with added stretch so you can experience all the comfort your mattress has to offer.",
+    "image": "https://casper-ca.b-cdn.net/The_Casper_Hand_Press_Lighter_Opti_5749dfe3b4.jpg?width=1600&quality=75"
+  },
+  "fallAsleep": {
+    "title": "Features designed to lull you to sleep.",
+    "subtitle": "Casper Signature™ Foam with AirScape® Technology",
+    "description": "A responsive layer of foam is designed to soothe you to sleep with the perfect bit of bounce, while added AirScape® Technology keeps you at a comfortable temperature all night.",
+    "image": "https://casper-ca.b-cdn.net/Element_Pro_Cooling_Desktop_70a7e16c79.jpg"
+  },
+  "stayAsleep": {
+    "title": "Sleep deeper and without interruptions.",
+    "subtitle": "Premium Memory Foam",
+    "description": "Absorbs pressure and cradles your body to help you stay asleep.",
+    "image": "https://casper-ca.b-cdn.net/the_casper_bedroom_side_box_xl_Casper_Blue_Update_3c70f88642.jpg?width=1600&quality=75"
+  }
+}
